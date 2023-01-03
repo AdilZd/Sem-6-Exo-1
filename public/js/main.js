@@ -1,83 +1,33 @@
-// 1 //
+// 1 // 
 
-// function add(x, y) {
-//     // Calculer la somme des deux nombres
-//     return x + y;
-
-//     // Afficher le résultat dans la console
-//     console.log(add);
+// function reverse_a_number(n)
+// {
+// 	n = n + "";
+// 	return n.split("").reverse().join("");
 // }
-// let demo = add(3, 5);
-// console.log(demo);
+// console.log(Number(reverse_a_number(32243)));
 
 // 2 //
 
-// function sous(x, y) {
-//     // Calculer la somme des deux nombres
-//     return x - y;
-
-//     // Afficher le résultat dans la console
-//     console.log(sous);
+// function divPar2(x) {
+//     // Vérifier si le nombre est divisible par 2
+//     switch (x % 2) {
+//         case 0:
+//             console.log(`Le nombre ${x} est divisible par 2 ${x}:2 = ${x / 2}`);
+//             break;
+//         default:
+//             console.log(`Le nombre n'est pas divisible par 2`);
+//     }
 // }
-// let demo = add(3, 6);
-// console.log(demo);
+
 
 // 3 //
 
-// function mult(x, y) {
-//     // Calculer la somme des deux nombres
-//     return x * y;
-
-//     // Afficher le résultat dans la console
-//     console.log(sous);
+// function logIn() {
+//     let password = prompt("Entrez votre mot de passe:");
+//     while (password !== "mdp") {
+//         password = prompt(" Mot de passe incorrect ");
+//     }
+//     alert("Vous êtes connecté");
 // }
-// let demo = mult(3, 5);
-// console.log(demo);
-
-// 4 // 
-
-// function div(x, y) {
-//     // Calculer la somme des deux nombres
-//     return x / y;
-
-//     // Afficher le résultat dans la console
-//     console.log(sous);
-// }
-// let demo = div(3, 5);
-// console.log(demo);
-
-// 5 //
-
-// function mod(x, y) {
-//     // Calculer la somme des deux nombres
-//     return x % y;
-
-//     // Afficher le résultat dans la console
-//     console.log(sous);
-// }
-// let demo = mod(3, 5);
-// console.log(demo);
-
-// 6 //
-
-// function carre(x) {
-//     return x * x;
-// }
-// let demo = carre(3);
-// console.log(demo);
-
-// 7 //
-
-// const exposant = (x, y) => {
-//     return Math.pow(x, y);
-// }
-// let demo = exposant(3, 5)
-// console.log(demo);
-
-// 8 //
-
-// function capitalize() {}
-// const str = 'malheureusement';
-// const str2 = str.charAt(0).toUpperCase() + str.slice(1);
-// console.log(str2);
 
